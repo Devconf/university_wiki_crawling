@@ -1,0 +1,103 @@
+Princeton University
+Harvard University
+Columbia University
+Massachusetts Institute of Technology
+Yale University
+Stanford University
+University of Chicago
+University of Pennsylvania
+Northwestern University
+Duke University
+Johns Hopkins University
+California Institute of Technology
+Dartmouth College
+Brown University
+University of Notre Dame
+Vanderbilt University
+Cornell University
+Rice University
+Washington University
+University of California, Los Angeles
+Emory University
+University of California, Berkeley
+University of Southern California
+Georgetown University
+Carnegie Mellon University
+University of Michigan - Ann Arbor
+Wake Forest University
+University of Virginia
+Georgia Institute of Technology
+New York University
+Tufts University
+University of North Carolina at Chapel Hill
+University of Rochester
+University of California, Santa Barbara
+University of Florida
+University of California, Irvine
+Boston College
+University of California, San Diego
+University of California, Davis
+Boston University
+Brandeis University
+Case Western Reserve University
+College of William and Mary
+Northeastern University
+Tulane University
+University of Wisconsin - Madison
+Villanova University
+University of Illinois, Urbana-Champaign
+University of Texas at Austin
+Lehigh University
+Pepperdine University
+Rensselaer Polytechnic Institute
+University of Georgia
+Ohio State University, Columbus
+Santa Clara University
+Syracuse University
+Florida State University
+Pennsylvania State University
+Purdue University
+University of Miami
+University of Pittsburgh
+Rutgers University
+University of Washington
+Loyola Marymount University
+Southern Methodist University
+University of Connecticut
+University of Maryland, College Park
+University of Massachusetts, Amherst
+Worcester Polytechnic Institute
+Clemson University
+George Washington University
+Texas A&M University, College Station
+University of Minnesota, Twin Cities
+Fordham University
+Stevens Institute of Technology
+Virginia Tech
+American University
+Brigham Young University
+Baylor University
+Binghamton University, SUNY
+Gonzaga University
+Indiana University, Bloomington
+University at Buffalo, SUNY
+Colorado School of Mines
+Elon University
+Marquette University
+Michigan State University
+North Carolina State University
+University of California, Santa Cruz
+University of Iowa
+Clark University
+Miami University
+Stony Brook University, SUNY
+University of California, Riverside
+University of Delaware
+University of San Diego
+Drexel University
+New Jersey Institute of Technology
+Saint Louis University
+Texas Christian University
+University of Denver
+University of San Francisco
+Yeshiva University

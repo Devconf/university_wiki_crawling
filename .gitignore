@@ -6,9 +6,11 @@ wikivenv/Lib/
 wikivenv/Scripts/
 wikivenv/Data/
 wikivenv/.ipynb_checkpoints
-wikivenv/etc
+wikivenv/etc/
 wikivenv/Untitled.ipynb
 wikivenv/*.msi
-wikivenv/share
-wikivenv/assets/GatechClass
-*.cfg
+wikivenv/share/
+wikivenv/assets/GatechClass/
+wikivenv/*.cfg
+wikivenv/doc/pycurl/
+

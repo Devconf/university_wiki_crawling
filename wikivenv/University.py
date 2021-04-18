@@ -5,6 +5,8 @@ import pypandoc
 import json
 import datetime
 import os
+import glob
+import re
 
 
 def GetUniversity():
@@ -61,16 +63,35 @@ def ConvertWikiToMarkdown(university_list):
                 ,'md',format='mediawiki',outputfile="./Data/markdown/"+univ+"/"+file_name+".md",encoding='utf-8')
             
             
-                
+def format_wikies():
+    wikies = glob.glob("./data/markdown/**/*")
+
+    #print(wikies)
+    result = {}
+    for i in wikies:
+        univ_name = i.split("\\")[1]
+        menu_name = i.split("\\")[2].replace(".md","")
+        f = open(i,"r", encoding="utf8")
+        d = f.read()
+        f.close()
+        d = re.sub('(\{#\w+\})','',d)
+        if univ_name not in result:
+            result[univ_name] = {}
+            #print(re.sub('({#\w+})','',d))
+            result[univ_name][menu_name] = d
+        else:
+            result[univ_name][menu_name] = d
+    f = open("./Data/wikies.json","w")
+    f.write(json.dumps(result, indent=2))          
             
 
 if __name__ == "__main__":
     wiki = wikipediaapi.Wikipedia( language='en', extract_format=wikipediaapi.ExtractFormat.WIKI)
     university_list =GetUniversity()
-    BuildUniversitySkeleton(university_list)
-    ConvertWikiToMarkdown(university_list)
-    data=requests.post("https://oscar.gatech.edu/bprod/bwckschd.p_get_crse_unsec")
-    print(data.text)
+    #BuildUniversitySkeleton(university_list)
+    #ConvertWikiToMarkdown(university_list)
+    format_wikies()
+    
 
 
    
